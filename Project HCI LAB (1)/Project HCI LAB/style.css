@@ -1,0 +1,268 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    background: #E56292;
+}
+
+.logo img{
+    margin-left: -28px;
+    margin-top: -10px;
+    width: 210px;
+    height: 110px;
+}
+
+.logo{
+    width: 100px;
+    height: 70px;
+}
+
+.nav{
+    width: 50%;
+    list-style-type: none;
+    padding-left: 270px;
+
+}
+
+.nav ul{
+    margin-right: 10px;
+}
+
+.nav ul li{
+    padding-right: 30px;
+    padding-bottom: 10px;
+    display: inline;
+    float: left;
+    text-align: center;
+}
+
+.nav ul li a{
+    padding-right: 10px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #F8FA8D ;
+    display: inline;
+}
+
+.mem{
+    padding-left: 145px;
+}
+
+.mem a{
+    text-decoration: none;
+    border-inline: inherit; border-style:solid;
+    border-width: 5px;
+    border-radius: 20%;
+    border-style: solid;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F8FA8D ;
+}
+
+.content{
+    margin: 0px;
+    max-width: 100%;
+    padding: 20px;
+    background: #F8FA8D;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.content #leftControl, .content #rightControl {
+    opacity: 0;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    z-index: 1000;
+    transition: 0.3s;
+}
+
+.content:hover #leftControl, .content:hover #rightControl{
+    opacity: 1;
+    transition: 0.3s;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.banner #rightControl {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.content #leftControl:hover, .content #rightControl:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.content #leftControl:hover, .content #rightControl:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.content .dots {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.content .dots .slideshow-dots {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 3px;
+    border: 2px solid darkgray;
+    background-color: darkgray;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.content .dots .slideshow-dots:hover, .content .dots .slideshow-dots.active {
+    background-color: white;
+
+}
+
+.content-sliders .slick-slide img{
+
+    margin:0px;
+    width: 500px;
+    height: 300px;
+    margin-left: 30%;
+}
+
+.slick-prev, .slick-next{
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+}
+
+.slick-prev{
+    left: 5px;
+}
+.slick-next{
+    right: 5px;
+}
+.slick-prev:before,
+.slick-next::before{
+    font-size: 100px;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.slick-dots{
+    bottom: 15px;
+}
+
+.slick-dots li button:before{
+    font-size: 12px;
+            color: #fff;
+            text-shadow: 0 0 10px rgba(0,0,0,0.5);
+            opacity: 1;
+}
+
+.bawah{
+    padding-bottom: 20%;
+    margin: 0px;
+    margin-left: 80px;
+    color: #E56292;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+.kotakfoto{
+    
+
+}
+
+.kotakfoto .fotonya img{
+    border: black;
+    border-color: black;
+    border-style: solid;
+    border-radius: 20px;
+    width: 180px;
+    height: 120px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 5px;
+    padding-bottom: 100px;
+}
+
+.kotakfoto{
+    width: 100%;
+    padding-left: 10px;
+}
+
+.kotakfoto .teks{
+    margin-top: -100px;
+    margin-left: 30px;
+}
+
+.kotakfoto .teks ul{
+    display: inline;
+    float: left;
+    text-align: center;
+}
+
+.kotakfoto .teks ul li{
+    padding-bottom: -100px;
+    padding-right: 170px;
+    display: inline;
+}
+.kotakfoto .teks ul li a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #E56292 ;
+    display: inline;
+}
+
+.kaki{
+    background-color: #E56292;
+    padding-top: 30px;
+}
+
+.kaki .left{
+    padding-top: 3px;
+}
+.kaki .left a{
+    padding-bottom: -30px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #F8FA8D ;
+}
+
+.right{
+    padding-top: -100px;
+    margin-left: 90%;
+}
+
+.right img{
+    margin-top: -90px;
+    width: 54px;
+    height: 34px;
+}
+
+

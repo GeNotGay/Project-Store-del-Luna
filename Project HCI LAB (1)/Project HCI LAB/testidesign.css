@@ -1,0 +1,224 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    background: #E56292;
+}
+
+.logo img{
+    margin-left: -28px;
+    margin-top: -10px;
+    width: 210px;
+    height: 110px;
+}
+
+.logo{
+    width: 100px;
+    height: 70px;
+}
+
+.nav{
+    width: 50%;
+    list-style-type: none;
+    padding-left: 270px;
+
+}
+
+.nav ul{
+    margin-right: 10px;
+}
+
+.nav ul li{
+    padding-right: 30px;
+    padding-bottom: 10px;
+    display: inline;
+    float: left;
+    text-align: center;
+}
+
+.nav ul li a{
+    padding-right: 10px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #F8FA8D ;
+    display: inline;
+}
+
+.mem{
+    padding-left: 145px;
+}
+
+.mem a{
+    text-decoration: none;
+    border-inline: inherit; border-style:solid;
+    border-width: 5px;
+    border-radius: 20%;
+    border-style: solid;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F8FA8D ;
+}
+
+.isitesti{
+    padding-top: 20px;
+    padding-bottom: 500px;
+    background: #F8FA8D;
+}
+
+.isitesti .judultesti{
+    background-color: #F8FA8D;
+}
+
+.judultesti h2{
+    margin-top: -10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F8FA8D;
+    font-size: 48px;
+}
+
+.testiatas{
+
+}
+
+.testiatas .orang1{
+    padding: 10px;
+    margin-right: 200px;
+    margin-left: 70px;
+    background-color: antiquewhite;
+    border-width: 5px;
+    border-radius: 0%;
+    border-style: solid;
+    color: black;
+    float: none;
+}
+
+.testiatas .orang1 img{
+    width: 100px;
+    height: 100px;
+    border-width: 5px;
+    border-style: solid;
+    color: black;
+}
+
+.orang1 a{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -100px;
+    font-size: 28px;
+    margin-left: 200px;
+    float: right;
+    font-style: italic;
+}
+
+
+.testiatas .orang2{
+    padding: 10px;
+    margin-top: 60px;
+    margin-left: 200px;
+    margin-right: 70px;
+    background-color: antiquewhite;
+    border-width: 5px;
+    border-radius: 0%;
+    border-style: solid;
+    color: black;
+    float: none;
+}
+
+.testiatas .orang2 img{
+    width: 100px;
+    height: 100px;
+    border-width: 5px;
+    border-style: solid;
+    color: black;
+}
+
+.orang2 a{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -100px;
+    font-size: 28px;
+    margin-left: 200px;
+    float: right;
+    font-style: italic;
+}
+
+
+.testiatas .orang3{
+    padding: 10px;
+    margin-top: 60px;
+    margin-right: 200px;
+    margin-left: 70px;
+    background-color: antiquewhite;
+    border-width: 5px;
+    border-radius: 0%;
+    border-style: solid;
+    color: black;
+    float: none;
+}
+
+.testiatas .orang3 img{
+    width: 100px;
+    height: 100px;
+    border-width: 5px;
+    border-style: solid;
+    color: black;
+}
+
+.orang3 a{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -100px;
+    font-size: 28px;
+    margin-left: 200px;
+    float: right;
+    font-style: italic;
+}
+
+.pesan{
+    border-width: 5px;
+    padding: 10px;
+    border-style: solid;
+    color: #E56292;
+    margin-left: 250px;
+    margin-right: 230px;
+    margin-top: 200px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+}
+
+.kaki{
+    background-color: #E56292;
+    padding-top: 30px;
+}
+
+.kaki .left{
+    padding-top: 3px;
+}
+.kaki .left a{
+    padding-bottom: -30px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #F8FA8D ;
+}
+
+.right{
+    padding-top: -100px;
+    margin-left: 90%;
+}
+
+.right img{
+    margin-top: -90px;
+    width: 54px;
+    height: 34px;
+}

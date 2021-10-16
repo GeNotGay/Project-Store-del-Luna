@@ -1,0 +1,258 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    background: #E56292;
+}
+
+.logo img{
+    margin-left: -30px;
+    margin-top: -10px;
+    width: 210px;
+    height: 110px;
+}
+
+.logo{
+    width: 100px;
+    height: 70px;
+}
+
+.nav{
+    width: 50%;
+    list-style-type: none;
+    padding-left: 270px;
+
+}
+
+.nav ul{
+    margin-right: 10px;
+}
+
+.nav ul li{
+    padding-right: 30px;
+    padding-bottom: 10px;
+    display: inline;
+    float: left;
+    text-align: center;
+}
+
+.nav ul li a{
+    padding-right: 10px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #F8FA8D ;
+    display: inline;
+}
+
+.mem{
+    padding-left: 145px;
+}
+
+.mem h4{
+    border-inline: inherit; border-style:solid;
+    border-width: 5px;
+    border-radius: 20%;
+    border-style: solid;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F8FA8D ;
+}
+
+.albumMain{
+    border-width: 10px;
+    padding-top: 1px;
+
+    background: antiquewhite;
+
+    .navbarKiri{
+        h2{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 800;
+            padding-left: 20px;
+            font-variant: small-caps;
+            color: #E56292;
+            font-size: 30px;
+        }
+        .navbarKiriList{
+            a{
+                font-family: Arial, Helvetica, sans-serif;
+                border-width: 100px;
+                border-color: #E56292;
+                text-decoration: none;
+                color: #E56292;
+                font-weight: 800;
+            }
+        } 
+        
+        .navbarKananList{
+            a{
+                font-family: Arial, Helvetica, sans-serif;
+                text-decoration: none;
+                color: #E56292;
+                font-weight: 800;
+                
+            }
+        }
+    }
+}
+
+.navbarKanan{
+    background-color: #E56292;
+    color: #F8FA8D ;
+    margin-bottom: 40px;
+    h2{
+        padding-top: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 800;
+        padding-left: 20px;
+        font-variant: small-caps;
+        
+        font-size: 30px;
+    }
+    
+    .navbarKanan1{
+        display: flex;
+        .gambar1{
+            img{
+                padding-left: 10px;
+                padding-right: 5px;
+                width: 200px;
+                height: 200px;
+                border-width: thin;
+            }
+            h3, h4{
+                font-family: Arial, Helvetica, sans-serif;
+                text-decoration: none;
+                padding-top: -10px;
+                padding-left: 10px;
+                font-weight: 800;
+                font-size: 15px;
+            }
+        }
+    
+        .gambar2{
+            img{
+                padding-left: 10px;
+                padding-right: 5px;
+                width: 200px;
+                height: 200px;
+            }
+            h3, h4{
+                font-family: Arial, Helvetica, sans-serif;
+                text-decoration: none;
+                padding-top: -10px;
+                padding-left: 10px;
+                font-weight: 800;
+                font-size: 15px;
+            }
+        }
+    
+        .gambar3{
+            img{
+                padding-left: 10px;
+                padding-right: 5px;
+                width: 200px;
+                height: 200px;
+            }
+            h3, h4{
+                font-family: Arial, Helvetica, sans-serif;
+                text-decoration: none;
+                padding-top: -10px;
+                padding-left: 10px;
+                font-weight: 800;
+                font-size: 18px;
+                font-size: 15px;
+            }
+            h4{
+                padding-top: none;
+                margin-top: none;
+            }
+        }
+    
+        .gambar4{
+            img{
+                padding-left: 10px;
+                padding-right: 5px;
+                width: 200px;
+                height: 200px;
+            }
+            h3, h4{
+                font-family: Arial, Helvetica, sans-serif;
+                text-decoration: none;
+                padding-top: -10px;
+                padding-left: 10px;
+                font-weight: 800;
+                font-size: 15px;
+            }
+        }
+
+        .gambar5{
+            img{
+                padding-left: 10px;
+                padding-right: 5px;
+                width: 200px;
+                height: 200px;
+            }
+            h3, h4{
+                font-family: Arial, Helvetica, sans-serif;
+                text-decoration: none;
+                padding-top: -10px;
+                padding-left: 10px;
+                font-weight: 800;
+                font-size: 15px;
+            }
+        }
+    }
+}
+    
+footer{
+    padding-bottom: none;
+    margin-bottom: none;
+    background-color: #F8FA8D;
+    display: flex;
+    p{
+        display: flex;
+        color: #E56292;
+        font-style: italic;
+        padding-left: 10px;
+    }
+}
+
+.paymentMethod{
+    display: flex;
+    padding-left: 540px;
+    .visa{
+        img{
+            width: 100px;
+            height: 50px;
+        }
+    }
+    .shopeepay{
+        img{
+            width: 100px;
+            height: 50px;
+        }
+    }
+    .ovo{
+        img{
+            width: 120px;
+            height: 50px;
+        }
+    }
+    .gopay{
+        img{
+            width: 80px;
+            height: 50px;
+        }
+    }
+}
